@@ -1,1 +1,59 @@
 /*  your css code here. If applicable */
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form-group {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 8px;
+  margin: 5px;
+  width: 180px;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  background-color: #219150;
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background: white;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #333;
+  color: white;
+}
+
+.delete {
+  background-color: #e74c3c;
+}
+
+.delete:hover {
+  background-color: #c0392b;
+}
